@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZUNAIRA/static/css/main.e8b86ea7.css",
+    "main.js": "/ZUNAIRA/static/js/main.71c170c5.js",
+    "static/js/787.1342cae8.chunk.js": "/ZUNAIRA/static/js/787.1342cae8.chunk.js",
+    "static/media/logo.png": "/ZUNAIRA/static/media/logo.6347d0b4267623442de3.png",
+    "static/media/bas.png": "/ZUNAIRA/static/media/bas.61ad49cfe44f2557405c.png",
+    "static/media/bas2.png": "/ZUNAIRA/static/media/bas2.9ca204a48dbe1f4a02d4.png",
+    "static/media/bas1.png": "/ZUNAIRA/static/media/bas1.4148d8587f05f49b8800.png",
+    "static/media/bas5.png": "/ZUNAIRA/static/media/bas5.f81544029152b91cb290.png",
+    "static/media/bas3.png": "/ZUNAIRA/static/media/bas3.5619a9f6bc36539bfe1d.png",
+    "static/media/th.png": "/ZUNAIRA/static/media/th.61fcbffc0f226fecf45c.png",
+    "index.html": "/ZUNAIRA/index.html",
+    "main.e8b86ea7.css.map": "/ZUNAIRA/static/css/main.e8b86ea7.css.map",
+    "main.71c170c5.js.map": "/ZUNAIRA/static/js/main.71c170c5.js.map",
+    "787.1342cae8.chunk.js.map": "/ZUNAIRA/static/js/787.1342cae8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b86ea7.css",
+    "static/js/main.71c170c5.js"
+  ]
+}
