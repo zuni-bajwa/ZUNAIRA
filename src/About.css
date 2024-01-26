@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.about{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    background-color: rgb(240, 238, 240);
+
+  
+}
+#about{
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    width: 75vw;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px
+}
+.image1{
+    background-color: rgb(240, 238, 240);
+
+    display: flex;
+    border-radius: 12px 0 0 12px;
+}
+.image1 img{
+height:50vh;
+margin:50px auto
+}
+.paragraph{
+    background-color: rgb(240, 238, 240);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0  12px 12px 0;
+}
+.paragraph h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.paragraph span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.paragraph p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 2px solid black;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+    color: black;
+}
+.links li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 3px;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 900px){
+    .about{
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+    }
+    .image{
+        height: 100vh;
+        border-radius: none;
+    }
+    .paragraph{
+        height: 100vh;
+        border-radius: none;
+    }
+    .paragraph h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .paragraph span{
+        margin: 20px 0;
+    }
+    .paragraph p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+.lo{
+    width: 400px;
+    height: 500px;
+}
+.credit{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  } 

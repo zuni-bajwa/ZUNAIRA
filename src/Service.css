@@ -1,0 +1,144 @@
+.pro{
+    color: rgb(90, 88, 88);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+margin-bottom: 15px;  
+}
+.off{
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    top: 40px;
+}
+.card {
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.second{
+    margin-top: 20px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+&:hover h2 {
+    inset: auto auto 220px 30px;
+    transition: inset .3s ease-out;
+  }
+  
+.card img {
+    width: 100%;
+    height: 180px; /* Increased card image height */
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.circle1{
+    background-color: rgb(91, 91, 235);
+}
+h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #777;
+}
+.first{
+    margin-right: 20px;
+    background-color: palevioletred;
+
+
+}
+.sec{
+    margin-right: 20px;
+    background-color: palevioletred;
+
+}
+.third{
+    margin-right: 20px;
+   background-color: palevioletred;
+
+}
+.two{
+    margin-top: 30px;
+}
+.three{
+    margin-top: 30px;
+}
+.pro{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.top{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+        background-color: rgb(90, 88, 88);
+       
+}
+.tops{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: palevioletred
+  
+}
+.rup{
+  color: brown;  
+}
+ 
+  
+.add{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+       background-color: brown;
+
+}
+@media (max-width:570px) {
+    .first{
+        margin-right: 0px;
+    }
+    .sec{
+        margin-right: 0px;
+    }
+    .third{
+        margin-right: 0px;
+    
+   } 
+}
+@media (max-width:950px) {
+    .first{
+        height: 465px;
+    }
+    .sec{
+        height: 465px;
+    }
+    .third{
+        height: 465px;
+    }
+
+}
