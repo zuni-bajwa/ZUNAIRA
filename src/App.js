@@ -18,11 +18,11 @@ class App extends React.Component{
         <Head/>
        <Rout/>
                   <Routes>
+        <Route exact path="/" component={<Home/} />
 
-        <Route path="/Home" element={<Home/>} />
-        <Route path='/Products' element={<Products />} />
-        <Route path='/Try' element={<Try />} />
-        <Route path='/Try1' element={<Try1 />} />
+        <Route path='/Products' component={<Products />} />
+        <Route path='/Try' component={<Try />} />
+        <Route path='/Try1' component={<Try1 />} />
 
         </Routes>
         <Footer></Footer>
