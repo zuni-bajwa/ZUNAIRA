@@ -14,8 +14,7 @@ const Head = () => {
       </NavLink>
         </span>
       <div className={`nav-items ${isOpen && "open"}`} id="move">
-      <NavLink to="/Home">
-        Home</NavLink>
+      <NavLink to="/">Home</NavLink>
       <NavLink to="/About">About</NavLink>
       <NavLink to="/Products">Products</NavLink>
       <NavLink to="/Login">Login</NavLink>
